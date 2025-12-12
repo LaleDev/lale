@@ -1,0 +1,10 @@
+// Lale'nin ilk gerçek programı – 12 Aralık 2025
+başlat {
+    yaz("Merhaba, ben Lale'yim!")
+    yaz("Repo: https://github.com/LaleDev/lale")
+    yaz("Şu an tam ", zaman.şimdi().format("dd.MM.yyyy HH:mm"), " tarihinde doğdum!")
+
+    için i = 1..6 {
+        yaz("Çiçek #", i, " açtı!")
+    }
+}
